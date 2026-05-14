@@ -1,0 +1,10 @@
+{
+  "name": "gm-skill",
+  "version": "0.0.1",
+  "description": "gm skill system foundation",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  }
+}
