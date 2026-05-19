@@ -1,0 +1,50 @@
+{
+  "name": "gm-skill",
+  "version": "2.0.1180",
+  "description": "Canonical universal harness — AI-native software engineering via skill-driven orchestration; bootstraps plugkit for task execution and session isolation. Install in any AI coding agent host.",
+  "author": "AnEntrypoint",
+  "license": "MIT",
+  "keywords": [
+    "gm",
+    "skill",
+    "harness",
+    "plugkit",
+    "orchestration",
+    "ai-coding",
+    "canonical"
+  ],
+  "homepage": "https://github.com/AnEntrypoint/gm-skill#readme",
+  "bugs": {
+    "url": "https://github.com/AnEntrypoint/gm-skill/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnEntrypoint/gm-skill.git"
+  },
+  "main": "bin/bootstrap.js",
+  "bin": {
+    "gm-skill-bootstrap": "./bin/bootstrap.js"
+  },
+  "files": [
+    "skills/",
+    "agents/",
+    "prompts/",
+    "lib/",
+    "lang/",
+    "scripts/",
+    "bin/",
+    "gm-plugkit/",
+    "AGENTS.md",
+    "README.md",
+    "gm.json"
+  ],
+  "dependencies": {
+    "gm-plugkit": "^2.0.1180"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
